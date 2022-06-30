@@ -117,7 +117,7 @@ if (isset($_POST['signup'])) {
                             $headers = 'From:Earthy' . "\r\n"; // Set from headers
                             mail($to, $subject, $message, $headers); // Send our email
                             */ 
-                            $activation = "1";
+                            $activation = 1;
                             mysqli_stmt_bind_param($stmt, "sssisiiiissi", $username, $email, $hashedPwd, $activation, $hash, $userprofile, $user_lvl, $user_xp, $user_events, $destinction, $user_active, $user_pendingxp);
                             mysqli_stmt_execute($stmt);
                             
