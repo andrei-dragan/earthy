@@ -90,7 +90,7 @@ if (isset($_POST['signup'])) {
                         }
                         else {
                             $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
-                            $activation = 0;
+                            $ = 0;
                             $userprofile = rand(1,5);
                             
                             $user_lvl = 0;
@@ -117,7 +117,7 @@ if (isset($_POST['signup'])) {
                             $headers = 'From:Earthy' . "\r\n"; // Set from headers
                             mail($to, $subject, $message, $headers); // Send our email
                             */ 
-                            $user_active = "1";
+                            $activation = "1";
                             mysqli_stmt_bind_param($stmt, "sssisiiiissi", $username, $email, $hashedPwd, $activation, $hash, $userprofile, $user_lvl, $user_xp, $user_events, $destinction, $user_active, $user_pendingxp);
                             mysqli_stmt_execute($stmt);
                             
