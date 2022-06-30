@@ -90,7 +90,6 @@ if (isset($_POST['signup'])) {
                         }
                         else {
                             $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
-                            $ = 0;
                             $userprofile = rand(1,5);
                             
                             $user_lvl = 0;
