@@ -43,7 +43,8 @@
                 else if($_GET['error'] == 'pwdshort') echo '<h2 id="error">The password must be at least 8 characters in length!</h2>';
                 else if($_GET['error'] == 'usertaken') echo '<h2 id="error">The user is already taken!</h2>';
                 else if($_GET['error'] == 'mailtaken') echo '<h2 id="error">There is already an account linked with this email!</h2>';
-                else if($_GET['error'] == 'succes') echo '<h2 id="succes">An email has been sent to you to activate your account!</h2>';
+                //else if($_GET['error'] == 'succes') echo '<h2 id="succes">An email has been sent to you to activate your account!</h2>';
+                else if($_GET['error'] == 'succes') echo '<h2 id="succes">Your account has been created!</h2>';
             }
         ?>
         <form onsubmit="return validateMyForm();" autocomplete="off" action="includes/signup.inc.php" method="POST">

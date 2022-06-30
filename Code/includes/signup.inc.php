@@ -101,7 +101,8 @@ if (isset($_POST['signup'])) {
                             $user_pendingxp = 0;
 
                             $hash = md5( rand(0,1000) );
-
+                            
+                            /* Due to Heroku deployments, sending e-mails doesn't work anymore
                             $to = $email; // Send email to our user
                             $subject = 'Activate your account'; // Give the email a subject 
                             $message = '
@@ -115,7 +116,8 @@ if (isset($_POST['signup'])) {
                                                 
                             $headers = 'From:Earthy' . "\r\n"; // Set from headers
                             mail($to, $subject, $message, $headers); // Send our email
-
+                            */ 
+                            $user_active = "1";
                             mysqli_stmt_bind_param($stmt, "sssisiiiissi", $username, $email, $hashedPwd, $activation, $hash, $userprofile, $user_lvl, $user_xp, $user_events, $destinction, $user_active, $user_pendingxp);
                             mysqli_stmt_execute($stmt);
                             
