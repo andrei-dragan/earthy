@@ -108,7 +108,7 @@ if (isset($_POST['signup'])) {
                             Your account is almost ready! We are really happy because you are joining us! 
 
                             Activate the account by clicking on the following link:
-                            https://earthy.website/includes/verify.inc.php?email='.$email.'&hash='.$hash.'
+                            https://earthy-website.herokuapp.com/includes/verify.inc.php?email='.$email.'&hash='.$hash.'
                             
                             All the best, team Earthy!
                             '; // Our message above including the link
