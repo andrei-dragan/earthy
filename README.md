@@ -36,4 +36,9 @@ The design of the application is very simple and pleasing to the eye because Ear
 - Links in the navigation bar, access to various items, etc. have color-changing, highlighting effects, all of which are characterized by different smooth transition effects whose time varies from 0.2s - 1s.
 
 --- 
-### Copyright
+### Copyrights
+Some elements in the application do not belong to Earthy. Copyrights have remained where they were needed, but we believe that with such a complex application, the existence of several files from other sources is inevitable. These elements are:
+- Functions that check the existence of a duplicated opened window.
+- The API which contains all the world's locations.
+- The design used on the "mailConfirmation.php" page.
+- Images are taken from websites such as "Pixabay", "Pexels", "Iconfinder".
