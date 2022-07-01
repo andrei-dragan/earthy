@@ -47,11 +47,15 @@ if (isset($_POST['createEvent'])) {
                     $fileNameNew = "event".$prev_id.".".$fileActualExt;
                     $fileDestination = 'event_uploads/'. $fileNameNew;
                     $fileDestination_new = '../event_uploads/'. $fileNameNew;
+                    /* 
+                    Code to choose a profile image for a certain event - not working since the website is hosted on Heroku
                     move_uploaded_file($fileTmpName, $fileDestination_new);
+                    */ 
                 }
                 else {
                     $fileDestination = "images/event.jpg";
                 }
+                $fileDestination = "images/event.jpg";
 
                 $title = $_POST['title'];
                 $description = $_POST['description'];
