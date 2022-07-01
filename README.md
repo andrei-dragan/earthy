@@ -14,3 +14,26 @@ Earthy is a web application designed to protect our environment, in which, with 
 This web application is based on the principle of a social network, where, depending on the impact of the idea or event created, the user receives points, which results in an increase in level and possibly in obtaining distinctions and badges.
 
 The common goal of Earthy is to change the environment for the better, because any action, no matter how small, can positively influence the environment around us. We want to encourage users to inspire and support each other, because only in this way can we complete this mission, of humanity.
+
+## Technologies used
+
+As technologies, Earthy is a web application that uses HTML, CSS, JAVASCRIPT, JQuery, and AJAX along with PHP, SQL, MySQLi, and phpMyAdmin for databases.
+
+## Stability
+
+Earthy is posted online, meaning that the user only needs an internet connection to use it - https://earthy-website.herokuapp.com/
+
+For a pleasant experience, it is recommended to use the application in the Google Chrome browser, since the full compatibility with other types of browsers will be optimized later.
+
+## Security and Testing
+
+Earthy has been tested long enough to find a majority of bugs that have been fixed. Starting from the existence of possibilities of abusing the application, to preventing SQL injections, with a lot of work, Earthy has managed to reach the stage it is at the moment.
+
+## Interface
+
+The design of the application is very simple and pleasing to the eye because Earthy hides many subtle transitions and hover effects that give a clean and yet interesting look: 
+- The buttons have a push effect similar to real-life interactions.
+- Links in the navigation bar, access to various items, etc. have color-changing, highlighting effects, all of which are characterized by different smooth transition effects whose time varies from 0.2s - 1s.
+
+--- 
+### Copyright
