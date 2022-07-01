@@ -11,6 +11,7 @@ body {
 /* THE BODY DIV*/
 #body {
     width: 500px;
+    height: fit-content;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif; 
 
