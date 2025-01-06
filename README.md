@@ -17,13 +17,7 @@ The common goal of Earthy is to change the environment for the better, because a
 
 ## Technologies used
 
-As technologies, Earthy is a web application that uses HTML, CSS, JAVASCRIPT, JQuery, and AJAX along with PHP, SQL, MySQLi, and phpMyAdmin for databases.
-
-## Stability
-
-Earthy is posted online, meaning that the user only needs an internet connection to use it - https://earthy-website.herokuapp.com/
-
-For a pleasant experience, it is recommended to use the application in the Google Chrome browser, since the full compatibility with other types of browsers will be optimized later.
+As technologies, Earthy is a web application that uses HTML, CSS, JavaScript, JQuery, and AJAX along with PHP, SQL, MySQLi, and phpMyAdmin for databases.
 
 ## Security and Testing
 
